@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1629033443,
+        "narHash": "sha256-Vo3TvQvR5hsd3incx/xOt6GFgTm651CYVauHS/irOFo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8ac785da9843aa110caeed6c912875e46a415a11",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "retroshare-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628244934,
+        "narHash": "sha256-RbmtTRPHQab3dDi1WAKlYWekuu6+TGgLZQT5o4WuhVg=",
+        "ref": "master",
+        "rev": "8bed99cc9f3763269b6b1aada45a43c9993d7b80",
+        "revCount": 15872,
+        "submodules": true,
+        "type": "git",
+        "url": "https://gitlab.com/retroshare/retroshare"
+      },
+      "original": {
+        "submodules": true,
+        "type": "git",
+        "url": "https://gitlab.com/retroshare/retroshare"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "retroshare-src": "retroshare-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
